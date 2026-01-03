@@ -1,0 +1,13 @@
+export default defineNuxtConfig({
+  compatibilityDate: '2026-01-03',
+  devtools: { enabled: true },
+  
+  css: ['~/assets/css/main.css'],
+  
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+})

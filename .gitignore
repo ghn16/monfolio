@@ -22,3 +22,6 @@ logs
 .env
 .env.*
 !.env.example
+```
+# Données utilisateurs (ne pas commiter)
+server/data/*.json

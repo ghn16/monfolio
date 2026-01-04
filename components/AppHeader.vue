@@ -24,6 +24,13 @@
           </NuxtLink>
           
           <NuxtLink 
+            to="/register" 
+            class="text-sm text-text-secondary hover:text-text-primary transition-colors"
+          >
+            Inscription
+          </NuxtLink>
+          
+          <NuxtLink 
             to="/dashboard" 
             class="px-4 py-2 bg-accent text-text-primary text-sm font-medium rounded-lg hover:shadow-glow-accent transition-all"
           >
